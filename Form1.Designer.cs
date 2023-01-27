@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle36 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle40 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle41 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle42 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle43 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle44 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle45 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -110,7 +110,7 @@
             // 
             // btnadd
             // 
-            this.btnadd.Location = new System.Drawing.Point(523, 76);
+            this.btnadd.Location = new System.Drawing.Point(523, 28);
             this.btnadd.Name = "btnadd";
             this.btnadd.Size = new System.Drawing.Size(98, 28);
             this.btnadd.TabIndex = 6;
@@ -120,7 +120,7 @@
             // 
             // btndeletefila
             // 
-            this.btndeletefila.Location = new System.Drawing.Point(523, 133);
+            this.btndeletefila.Location = new System.Drawing.Point(523, 91);
             this.btndeletefila.Name = "btndeletefila";
             this.btndeletefila.Size = new System.Drawing.Size(98, 22);
             this.btndeletefila.TabIndex = 7;
@@ -130,7 +130,7 @@
             // 
             // btndeleteall
             // 
-            this.btndeleteall.Location = new System.Drawing.Point(523, 188);
+            this.btndeleteall.Location = new System.Drawing.Point(523, 152);
             this.btndeleteall.Name = "btndeleteall";
             this.btndeleteall.Size = new System.Drawing.Size(98, 27);
             this.btndeleteall.TabIndex = 8;
@@ -140,7 +140,7 @@
             // 
             // btncalc
             // 
-            this.btncalc.Location = new System.Drawing.Point(523, 238);
+            this.btncalc.Location = new System.Drawing.Point(523, 222);
             this.btncalc.Name = "btncalc";
             this.btncalc.Size = new System.Drawing.Size(98, 23);
             this.btncalc.TabIndex = 9;
@@ -173,36 +173,36 @@
             // 
             // Nombre
             // 
-            dataGridViewCellStyle36.BackColor = System.Drawing.Color.Cyan;
-            this.Nombre.DefaultCellStyle = dataGridViewCellStyle36;
+            dataGridViewCellStyle41.BackColor = System.Drawing.Color.Cyan;
+            this.Nombre.DefaultCellStyle = dataGridViewCellStyle41;
             this.Nombre.HeaderText = "Nombre";
             this.Nombre.Name = "Nombre";
             // 
             // Apellido
             // 
-            dataGridViewCellStyle37.BackColor = System.Drawing.Color.Cyan;
-            this.Apellido.DefaultCellStyle = dataGridViewCellStyle37;
+            dataGridViewCellStyle42.BackColor = System.Drawing.Color.Cyan;
+            this.Apellido.DefaultCellStyle = dataGridViewCellStyle42;
             this.Apellido.HeaderText = "Apellido";
             this.Apellido.Name = "Apellido";
             // 
             // Carnet
             // 
-            dataGridViewCellStyle38.BackColor = System.Drawing.Color.Cyan;
-            this.Carnet.DefaultCellStyle = dataGridViewCellStyle38;
+            dataGridViewCellStyle43.BackColor = System.Drawing.Color.Cyan;
+            this.Carnet.DefaultCellStyle = dataGridViewCellStyle43;
             this.Carnet.HeaderText = "Carnet";
             this.Carnet.Name = "Carnet";
             // 
             // Notas
             // 
-            dataGridViewCellStyle39.BackColor = System.Drawing.Color.Cyan;
-            this.Notas.DefaultCellStyle = dataGridViewCellStyle39;
+            dataGridViewCellStyle44.BackColor = System.Drawing.Color.Cyan;
+            this.Notas.DefaultCellStyle = dataGridViewCellStyle44;
             this.Notas.HeaderText = "Nota_1";
             this.Notas.Name = "Notas";
             // 
             // Nota_2
             // 
-            dataGridViewCellStyle40.BackColor = System.Drawing.Color.Cyan;
-            this.Nota_2.DefaultCellStyle = dataGridViewCellStyle40;
+            dataGridViewCellStyle45.BackColor = System.Drawing.Color.Cyan;
+            this.Nota_2.DefaultCellStyle = dataGridViewCellStyle45;
             this.Nota_2.HeaderText = "Nota_2";
             this.Nota_2.Name = "Nota_2";
             // 
