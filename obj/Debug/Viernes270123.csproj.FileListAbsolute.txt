@@ -1,0 +1,11 @@
+D:\Nueva carpeta\Viernes270123\bin\Debug\Viernes270123.exe.config
+D:\Nueva carpeta\Viernes270123\bin\Debug\Viernes270123.exe
+D:\Nueva carpeta\Viernes270123\bin\Debug\Viernes270123.pdb
+D:\Nueva carpeta\Viernes270123\obj\Debug\Viernes270123.csproj.AssemblyReference.cache
+D:\Nueva carpeta\Viernes270123\obj\Debug\Viernes270123.csproj.SuggestedBindingRedirects.cache
+D:\Nueva carpeta\Viernes270123\obj\Debug\Viernes270123.Form1.resources
+D:\Nueva carpeta\Viernes270123\obj\Debug\Viernes270123.Properties.Resources.resources
+D:\Nueva carpeta\Viernes270123\obj\Debug\Viernes270123.csproj.GenerateResource.cache
+D:\Nueva carpeta\Viernes270123\obj\Debug\Viernes270123.csproj.CoreCompileInputs.cache
+D:\Nueva carpeta\Viernes270123\obj\Debug\Viernes270123.exe
+D:\Nueva carpeta\Viernes270123\obj\Debug\Viernes270123.pdb
