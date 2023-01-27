@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle36 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle40 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -173,36 +173,36 @@
             // 
             // Nombre
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Cyan;
-            this.Nombre.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle36.BackColor = System.Drawing.Color.Cyan;
+            this.Nombre.DefaultCellStyle = dataGridViewCellStyle36;
             this.Nombre.HeaderText = "Nombre";
             this.Nombre.Name = "Nombre";
             // 
             // Apellido
             // 
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Cyan;
-            this.Apellido.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle37.BackColor = System.Drawing.Color.Cyan;
+            this.Apellido.DefaultCellStyle = dataGridViewCellStyle37;
             this.Apellido.HeaderText = "Apellido";
             this.Apellido.Name = "Apellido";
             // 
             // Carnet
             // 
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.Cyan;
-            this.Carnet.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle38.BackColor = System.Drawing.Color.Cyan;
+            this.Carnet.DefaultCellStyle = dataGridViewCellStyle38;
             this.Carnet.HeaderText = "Carnet";
             this.Carnet.Name = "Carnet";
             // 
             // Notas
             // 
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.Cyan;
-            this.Notas.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle39.BackColor = System.Drawing.Color.Cyan;
+            this.Notas.DefaultCellStyle = dataGridViewCellStyle39;
             this.Notas.HeaderText = "Nota_1";
             this.Notas.Name = "Notas";
             // 
             // Nota_2
             // 
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.Cyan;
-            this.Nota_2.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle40.BackColor = System.Drawing.Color.Cyan;
+            this.Nota_2.DefaultCellStyle = dataGridViewCellStyle40;
             this.Nota_2.HeaderText = "Nota_2";
             this.Nota_2.Name = "Nota_2";
             // 
@@ -289,7 +289,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.MaximizeBox = false;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.tableregistro)).EndInit();

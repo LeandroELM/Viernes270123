@@ -12,6 +12,8 @@ namespace Viernes270123
         string nombre;
         string apellido;
         string carnet;
+        int nota1;
+        int nota2;
         public Operaciones()
         {
 
@@ -38,10 +40,22 @@ namespace Viernes270123
             get => carnet;
             set => carnet = value; 
         }
+        public int Nota1
+        {
+            get => nota1; 
+            set => nota1 = value;
+        }
+        public int Nota2 
+        {
+            get => nota2;
+            set => nota2 = value;
+        }
 
         public string Message() 
         {
             return "Saludos";
         }
+
+       
     }
 }

@@ -33,12 +33,10 @@ namespace Viernes270123
             tableregistro.AllowUserToAddRows = false;
         }
 
-        private void btnadd_Click(object sender, EventArgs e)
+        public void btnadd_Click(object sender, EventArgs e)
         {
-            string Nom, Apell, Car;
-            string nota1;
-            string nota2;
-
+            string Nom, Apell, Car, nota1,nota2;
+            
             if (txtname.Text == "" || txtlastname.Text == "" || txtcarnet.Text == "")
             {
                 MessageBox.Show("Verifique los campos agregados");
@@ -49,15 +47,15 @@ namespace Viernes270123
                 Apell = txtlastname.Text;
                 Car = txtcarnet.Text;
                 nota1 = txtnota1.Text;
-                nota2 = txtnota2.Text
+                nota2 = txtnota2.Text;
 
 
-                string[] datos = new string[5];
+                string [] datos = new string[5];
                 datos[0] = Nom;
                 datos[1] = Apell;
                 datos[2] = Car;
-                datos[3]= nota1; ;
-                datos[4]= nota2;
+                datos[3] = nota1; 
+                datos[4] = nota2;
 
                 tableregistro.Rows.Add(datos);
 
@@ -93,14 +91,8 @@ namespace Viernes270123
 
         private void btncalc_Click(object sender, EventArgs e)
         {
-
-            int est;
-            double prom;
-            int sumanotas;
             
-            est = tableregistro.RowCount;
-            
-           
+                                              
         }
     }
 }
